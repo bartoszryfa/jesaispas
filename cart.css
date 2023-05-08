@@ -1,0 +1,53 @@
+table, td, tr
+{
+    border:1px solid black;
+    padding: 10px;
+    border-collapse: collapse
+    
+}
+
+td
+{
+    padding: 10px 30px;
+    
+}
+table
+{
+    margin: 0 auto;
+    text-align:center;
+    
+}
+h3
+{
+    font-size:16px;
+    margin-left:100px;
+}
+#cart
+{
+    text-align:center;
+}
+
+/*---------------------------------------------media only screen-------------------------------------------------*/
+
+@media only screen and (max-width: 500px) {
+
+    table, td, tr
+    {
+        border:1px solid black;
+        padding: 5px;
+        border-collapse: collapse
+        
+    }
+
+    td
+    {
+        padding: 10px 5px;
+        
+    }
+    table
+    {
+        margin: 0 auto;
+        text-align:center;
+        
+    }
+}

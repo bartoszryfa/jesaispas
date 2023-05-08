@@ -1,0 +1,215 @@
+body
+{
+margin:0px;
+font-family: 'Roboto', sans-serif;
+color:#fff;
+}
+#container
+{
+    width:1420px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#000;
+
+}
+.clear
+{
+    clear:both;
+}
+a:link
+{
+    color:#fff;
+    text-decoration:none;
+}
+a:visited
+{
+    color:#fff;
+}
+a:hover
+{
+    opacity:40%;
+}
+#back
+{
+    float:left;
+    margin-top:43px;
+    margin-left:80px;
+    font-weight:500;
+    width:200px;
+}
+
+
+#card
+{
+    float:left;
+    margin-top:43px;
+    margin-left:400px;
+    font-weight:500;
+    width:70px;
+}
+
+#checkout
+{
+    
+    margin-top:43px;
+    margin-right:60px;
+    font-weight:500;
+    float:right
+}
+
+#box
+{
+    font-weight:300;
+    font-size:14px;
+    width:500px;
+    height:550px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+}
+#box1
+{
+    font-weight:300;
+    font-size:14px;
+    width:550px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+}
+.text
+{
+    width:200px;
+    font-weight:300;
+    margin-bottom:40px;
+}
+h3
+{
+    font-weight:500;
+}
+
+.text1
+{
+    font-size:15px;
+    font-weight:300;
+ 
+}
+.text1 span
+{
+    font-weight:500;
+}
+
+
+
+#footer
+{
+    width:350px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:12px;
+}
+.fot, .fot1
+{
+    margin-left:10px;
+    margin-right:10px;
+    font-size:10px;
+    float:left;
+    
+}
+.fot a:link
+{
+    text-decoration:none;
+    color:#fff;
+}
+
+.fot a:visited
+{
+    color:#fff;
+}
+.fot a:hover
+{
+    text-decoration:underline;
+    opacity:1;
+}
+.fot1 a:link
+{
+    text-decoration:none;
+    color:#fff;
+}
+
+.fot1 a:visited
+{
+    color:#fff;
+}
+.fot1 a:hover
+{
+    text-decoration:underline;
+    opacity:1;
+}
+
+
+/*---------------------------------------------media only screen-------------------------------------------------*/
+
+@media only screen and (max-width: 500px) {
+
+#container
+{
+    width:500px;
+}
+#back
+{
+    margin-top:30px;
+    margin-left:21px;
+    width:105px;
+    
+}
+
+
+#card
+{
+    float:left;
+    margin-top:30px;
+    margin-left:95px;
+    font-weight:500;
+    width:70px;
+}
+
+#checkout
+{
+    
+    margin-top:30px;
+    margin-right:21px;
+    font-weight:500;
+    float:right
+}
+
+#box
+{
+    margin-top:100px;
+    margin-left:21px;
+    margin-right:21px;
+    width:450px;
+    height:460px;
+    
+}
+#box1
+{
+    width:450px;
+}
+#footer
+{
+    width:200px;
+    margin-top:150px;
+}
+.fot
+{
+    font-size:12.5px;
+}
+.fot1
+{
+    margin-top:10px;
+    margin-left:36px;
+    font-size:12.5px;
+}
+}
