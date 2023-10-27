@@ -28,11 +28,6 @@ The store was developed on the founder's request. It involves limited drops of n
   <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/9247f0af-b58e-4994-800d-b43254b54400" alt="order confirmed"/>
 </div>
 
-## Features
-- Limited Assortment
-- Product Categories
-- Product Cards
-- Online Orders
 
 ## Technologies
 - [x] php 
