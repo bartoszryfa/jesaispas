@@ -1,4 +1,4 @@
-is# Online store -> Jesaispas
+# Online store -> Jesaispas
 
 ## Description
 The store was developed on the founder's request. It involves limited drops of new collections. After announcing a new collection, the founder informs their group of customers about the sale date. 15 minutes before the sale starts, there is a file exchange on the server, and at a specific time, users gain access to the platform. Upon entering the website, customers can see the available products. After selecting one or more items and adding them to the cart, the order is processed step by step until finalization.
