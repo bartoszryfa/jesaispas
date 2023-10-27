@@ -26,6 +26,9 @@ a:hover
 {
     opacity:40%;
 }
+
+/*--------------------------------- menu ----------------------------------------*/
+
 #back
 {
     float:left;
@@ -36,7 +39,6 @@ a:hover
     width:200px;
     
 }
-
 
 #card
 {
@@ -62,6 +64,8 @@ a:hover
     margin-left:80px;
     margin-right:60px;
 }
+
+/*---------------------------------  data form  ----------------------------------------*/
 
 input[type=text]
 {
@@ -99,6 +103,7 @@ h2
     top:26px;
     left:30px;
 }
+
 input[type=checkbox]
 {
 width:30px;
@@ -119,14 +124,17 @@ color:#fff;
 transition:ease-out 0.5s;
 outline:none;
 }
+
 input[type=submit]:hover
 {
     cursor:pointer;
     opacity:0.7;
 }
+
 input:focus::-webkit-input-placeholder {
     opacity: 0;
 }
+
 #php
 {
     position:relative;
@@ -156,6 +164,8 @@ input:focus::-webkit-input-placeholder {
     width:80px;
    
 }
+
+/*--------------------------------- footer ----------------------------------------*/
 #footer
 {
     width:350px;
@@ -215,6 +225,9 @@ input:focus::-webkit-input-placeholder {
     margin-right:auto;
     overflow:hidden;
 }
+
+/*--------------------------------- table ----------------------------------------*/
+
 table, td, tr{border:1px solid black; padding: 10px; border-collapse: collapse}
 table
 {
@@ -224,7 +237,7 @@ table
     
 }
 
-/*---------------------------------------------media only screen-------------------------------------------------*/
+/*--------------------------------- Mobile ----------------------------------------*/
 
 @media only screen and (max-width: 500px) {
 
@@ -234,14 +247,14 @@ table
     overflow:hidden;
     
 }
+
+/* menu */
 #back
 {
     margin-top:30px;
     margin-left:21px;
     width:105px;
-    
 }
-
 
 #card
 {
@@ -262,7 +275,7 @@ table
 }
 
 
-
+/* form */
 #box
 {
     height:900px;
@@ -320,24 +333,24 @@ input[type=checkbox]
 {
     position:relative;
     top:-20px;
-width:15px;
-height:15px;
-margin-left:28px;
+    width:15px;
+    height:15px;
+    margin-left:28px;
 }
 
 input[type=submit]
 {
-position:relative;
-top:45px;
-left:5px;
-width:400px;
-height:40px;
-border:solid 1px #000;
-font-size:16px;
-background-color:#000;
-color:#fff;
-transition:ease-out 0.5s;
-outline:none;
+    position:relative;
+    top:45px;
+    left:5px;
+    width:400px;
+    height:40px;
+    border:solid 1px #000;
+    font-size:16px;
+    background-color:#000;
+    color:#fff;
+    transition:ease-out 0.5s;
+    outline:none;
 }
 input[type=submit]:hover
 {
@@ -354,7 +367,7 @@ input[type=submit]:hover
     
 }
 
-
+/* footer */
 .footer
 {
     width:200px;
@@ -418,16 +431,16 @@ input[type=submit]:hover
     overflow:hidden;
 }
 
+/* table */
 table, td, tr
 {
     border:1px solid black; padding: 10px;
     border-collapse: collapse;
-    
-    
 }
+
 table
 {
     margin: 0 auto; font-size: 14px;
     text-align:center;
 }
-}
+

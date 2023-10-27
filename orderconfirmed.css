@@ -27,6 +27,9 @@ a:hover
 {
     opacity:40%;
 }
+
+/* menu */
+
 #back
 {
     float:left;
@@ -37,6 +40,8 @@ a:hover
     width:200px;
     
 }
+
+/* main */
 
 h1
 {
@@ -84,9 +89,10 @@ h5
   
 }
 
+/* footer */
+
 .footer
 {
-   
     width:350px;
     margin-top:100px;
     margin-left:auto;
@@ -96,10 +102,11 @@ h5
 }
 .fot, .fot1
 {
-  padding:10px;
-  font-size:10px;
+    padding:10px;
+    font-size:10px;
     float:left;
 }
+
 .fot a:link
 {
     text-decoration:none;
@@ -110,11 +117,13 @@ h5
 {
     color:#000;
 }
+
 .fot a:hover
 {
     text-decoration:underline;
     opacity:1;
 }
+
 .fot1 a:link
 {
     text-decoration:none;
@@ -125,11 +134,13 @@ h5
 {
     color:#000;
 }
+
 .fot1 a:hover
 {
     text-decoration:underline;
     opacity:1;
 }
+
 #stopka
 {
     margin-top:150px;
@@ -141,6 +152,8 @@ h5
     overflow:hidden;
 }
 
+/*table */
+
 table, td, tr{border:1px solid black; padding: 10px; border-collapse: collapse}
 table
 {
@@ -149,7 +162,8 @@ table
     text-align:center;
     
 }
-/*---------------------------------------------media only screen-------------------------------------------------*/
+
+/*--------------------------------- Mobile ----------------------------------------*/
 
 @media only screen and (max-width: 500px) {
 
@@ -159,6 +173,9 @@ table
     overflow:hidden;
     
 }
+
+/* menu */
+
 #back
 {
     margin-top:30px;
@@ -175,6 +192,7 @@ h1
     font-size:25px;
     
 }
+
 h3
 {
    
@@ -182,18 +200,20 @@ h3
 h4 span
 {
     font-weight:500;
-  
 }
+
 h4
 {
     font-weight:300;
     font-size:18px;
 }
+
 h5
 {
     font-weight:300;
     font-size:18px;
 }
+
 #php
 {
     width:500px;
@@ -201,6 +221,7 @@ h5
     margin-left:auto;
     margin-right:auto;
 }
+
 #box
 {
     margin-top:50px;
@@ -212,6 +233,7 @@ h5
   
 }
 
+/* footer */
 
 .footer
 {
@@ -234,7 +256,6 @@ h5
     margin-bottom:25px;
 }
 
-
 .fot a:link
 {
     text-decoration:none;
@@ -245,11 +266,13 @@ h5
 {
     color:#000;
 }
+
 .fot a:hover
 {
     text-decoration:underline;
     opacity:1;
 }
+
 .fot1 a:link
 {
     text-decoration:none;
@@ -260,11 +283,13 @@ h5
 {
     color:#000;
 }
+
 .fot1 a:hover
 {
     text-decoration:underline;
     opacity:1;
 }
+
 #stopka
 {
     margin-top:-280px;
@@ -276,16 +301,17 @@ h5
     overflow:hidden;
 }
 
+/* table */
+
 table, td, tr
 {
     border:1px solid black; padding: 10px;
     border-collapse: collapse;
-    
-    
 }
+
 table
 {
     margin: 0 auto; font-size: 14px;
     text-align:center;
 }
-}
+
