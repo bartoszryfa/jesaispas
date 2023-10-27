@@ -29,7 +29,7 @@ MENU
         <a href="index.php">❮ BACK </a>
     </div>
     
-    $.ajax();
+    
 <?php
     session_start();
     $pdname = $_SESSION['pdname'];
@@ -70,7 +70,7 @@ ORDER CONFIRMED
 -->
 <div class="clear"></div>
    
-       <h1>Dziękujemy za złożenie zamówienia!</h1>
+       <h1>Thanks for your order!</h1>
        
        <div id="php">
            <div id="finalCart">
@@ -87,12 +87,7 @@ ORDER CONFIRMED
            </div>
            
     <div id="box">
-        <h3>Prosimy o wpłate kwoty: <span id="totalAmountPLN"></span> PLN + 20 PLN (ship)</h3>
-        
-        <div id="dane">
-          <h4><span>dane do wpłaty:</span> 00 1020 1020 1020 1020 1020 1020</h4>
-          <h5>XXXX YYYYYYY ZZZZZZZ</h5>
-        </div>
+        <button type="submit">Click to pay</button>
    </div>
    
    <!--

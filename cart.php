@@ -53,7 +53,7 @@ MENU
                 
             </table>
             <div>
-                <h4>Razem: <span id="totalAmountPLN"></span> PLN</h4>
+                <h4>Total: <span id="totalAmountPLN"></span> PLN</h4>
             </div>
         </div>
         

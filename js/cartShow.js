@@ -46,13 +46,13 @@ const genTable = () => {
         <tr>
             <td>lp:</td>
             <td>img:</td>
-            <td>produkt:</td>
-            <td>rozmiar:</td>
-            <td>ilość:</td>
-            <td>cena:</td>
-            <td>dodaj:</td>
-            <td>mniej:</td>
-            <td>usuń:</td>
+            <td>product:</td>
+            <td>size:</td>
+            <td>item:</td>
+            <td>price:</td>
+            <td>more:</td>
+            <td>less:</td>
+            <td>remove:</td>
         </tr>
     `)
     currentCart = localStorage.getItem('shop') ? JSON.parse(localStorage.getItem('shop')) : { shop: []}
@@ -81,6 +81,6 @@ const genTable = () => {
         $("#totalAmountPLN").html(amount.toFixed(2))
     }
         else{
-            $("#cart").html('koszyk jest pusty.')
+            $("#cart").html('Basket is empty.')
     }
 }

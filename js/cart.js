@@ -19,7 +19,7 @@ const addToBasket = (item, price, img) => {
     console.log('current cart', currentCart)
     console.log('new cart', newCart)
     localStorage.setItem('shop', JSON.stringify(newCart))
-    alert(`Dodano ${item} do koszyka.`)
+    alert(`Added ${item} to basket.`)
     currentCart = localStorage.getItem('shop') ? JSON.parse(localStorage.getItem('shop')) : { shop: []}
     countItems()
 

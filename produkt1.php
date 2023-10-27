@@ -27,8 +27,8 @@
 MENU
 
 -->
-        <div id="logo">
-            <a href=""><img src="photos/logo.png"></img></a>
+        <div id="back">
+            <a href="index.php">❮ BACK </a>
         </div>
         
         <div id="card">
@@ -62,13 +62,6 @@ PHOTOS
         <img src="photos/koszulka2.jpg" alt="jpg1" onclick="myFunction(this);">
       </div>
       
-      <div class="column">
-        <img src="photos/koszula3.png" alt="jpg3"  onclick="myFunction(this);">
-      </div>
-      
-      <div class="column">
-        <img src="photos/koszula4.png" alt="jpg4"  onclick="myFunction(this);">
-      </div>
    </div>
 
    
@@ -139,6 +132,7 @@ PHOTOS
 
 
 </div>
+
 
 
 

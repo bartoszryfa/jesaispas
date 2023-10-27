@@ -27,8 +27,8 @@
 MENU
 
 -->
-        <div id="logo">
-            <a href=""><img src="photos/logo.png"></img></a>
+        <div id="back">
+            <a href="index.php">❮ BACK </a>
         </div>
         
         <div id="card">
@@ -62,14 +62,7 @@ PHOTOS
     <img src="photos/bluza2.jpg" alt="Snow" onclick="myFunction(this);">
   </div>
 
-  <div class="column">
-    <img src="photos/koszula3.png" alt="Mountains"  onclick="myFunction(this);">
-  </div>
 
-  <div class="column">
-    <img src="photos/koszula4.png" alt="Lights"  onclick="myFunction(this);">
-  </div>
-</div>
 
 
 <!-- PRODUCT ID -->
