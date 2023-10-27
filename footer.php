@@ -15,7 +15,7 @@
         <div class="fot1">
             <a href="return.html">Return & Refund Policy</a>
         </div>
-    </div>
+</div>
 
 <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
 <script src='js/cart.js'></script>

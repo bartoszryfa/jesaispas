@@ -21,7 +21,9 @@
 </head>
 
 <body>
-
+<!--
+MENU
+-->
 <div id="container">
     
     <div id="back">
@@ -36,35 +38,42 @@
         <a href="order.php"> CHECKOUT</a>
     </div>
     
-
-                            <div class="clear"></div>
-   
-
-<div class="row">
-  
-
-
-<div id="cart">
-        <table>
-            
-        </table>
-        <div>
-            <h4>Razem: <span id="totalAmountPLN"></span> PLN</h4>
+    
+    <div class="clear"></div>
+    
+    <!--
+    CART
+    -->
+    <div class="row">
+        
+        
+        
+        <div id="cart">
+            <table>
+                
+            </table>
+            <div>
+                <h4>Razem: <span id="totalAmountPLN"></span> PLN</h4>
+            </div>
         </div>
+        
     </div>
-   
-    </div>
-
-      
-<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
-<script src='js/cart.js'></script>
-
-
-<script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  expandImg.src = imgs.src;
-}
-</script>
-<script src="js/cartShow.js"></script>
+    
+    <!--
+    SCRIPT
+    -->
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script src='js/cart.js'></script>
+    
+    
+    <script>
+        function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            expandImg.src = imgs.src;
+        }
+    </script>
+    <script src="js/cartShow.js"></script>
+    
+    
 </body>
+</html>
