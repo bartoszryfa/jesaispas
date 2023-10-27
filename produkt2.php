@@ -18,48 +18,69 @@
         
         
 </head>
-
 <body>
-
+    <herader>
+        
 <div id="container">
-    
-    <div id="back">
-        <a href="index.php">❮ BACK </a>
-    </div>
-    
-    <div id="card">
-        <a href="cart.php"> CART (<span id="cartCount">0</span>)</a>
-    </div>
-    
-    <div id="checkout">
-        <a href="order.php"> CHECKOUT</a>
-    </div>
-    
+<!--
 
+MENU
+
+-->
+        <div id="logo">
+            <a href=""><img src="photos/logo.png"></img></a>
+        </div>
+        
+        <div id="card">
+            <a href="cart.php"> CART (<span id="cartCount">0</span>)</a>
+        </div>
+        
+        <div id="checkout">
+            <a href="order.php"> CHECKOUT</a>
+        </div>
+        
+    </header>
+    
+    <main>
                             <div class="clear"></div>
-   
+                            
+<!--
 
+PHOTOS
 
+-->
    <div class="container">
        <img id="expandedImg"src="photos/bluza1.jpg">
-     </div>
-<div class="row">
-  <div class="column">
-    <img src="photos/bluza1.jpg" alt="jpg1" onclick="myFunction(this);">
+    </div>
+
+    <div class="row">
+        <div class="column">
+        <img src="photos/bluza1.jpg" alt="Nature" onclick="myFunction(this);">
   </div>
+
   <div class="column">
-    <img src="photos/bluza2.jpg" alt="jpg2" onclick="myFunction(this);">
+    <img src="photos/bluza2.jpg" alt="Snow" onclick="myFunction(this);">
   </div>
-  
+
+  <div class="column">
+    <img src="photos/koszula3.png" alt="Mountains"  onclick="myFunction(this);">
+  </div>
+
+  <div class="column">
+    <img src="photos/koszula4.png" alt="Lights"  onclick="myFunction(this);">
+  </div>
 </div>
 
 
+<!-- PRODUCT ID -->
 
     <div class="box">
-    <form action="order.php" method="post">
-        <div class="prodname">001 BLACK „DEBUT” HOODIE</div>
-        <div class="price">379 PLN</div>
-        <div class="clear"></div>
+        <form action="order.php" method="post">
+            <div class="prodname">001 BLACK „DEBUT” HOODIE</div>
+            <div class="prodname1">379 PLN</div>
+            <div class="clear"></div>
+<!-- PRODUCT SIZE -->
+
         <div class="size">
             <p>size:</p>
             
@@ -68,7 +89,7 @@
                 <input type="radio" id="1" checked name="size" class="hidebox" value="S"/>
                 <label for="1" class="lbl-radio">
                 <div class="display-box"></div>
-                    <div class="roz1">S</div>
+                <div class="roz1">S</div>
                 </label>
             </div>
             
@@ -76,7 +97,7 @@
                 <input type="radio" id="2" name="size" class="hidebox" value="M"/>
                 <label for="2" class="lbl-radio">
                 <div class="display-box"></div>
-                    <div class="roz2">M</div>
+                <div class="roz2">M</div>
                 </label>
             </div>
             
@@ -84,7 +105,7 @@
                 <input type="radio" id="3" name="size" class="hidebox" value="L"/>
                 <label for="3" class="lbl-radio">
                 <div class="display-box"></div>
-                    <div class="roz3">L</div>
+                <div class="roz3">L</div>
                 </label>
             </div>
             
@@ -92,20 +113,19 @@
                 <input type="radio" id="4" name="size" class="hidebox" value="XL"/>
                 <label for="4" class="lbl-radio">
                 <div class="display-box"></div>
-                    <div class="roz4">XL</div>
+                <div class="roz4">XL</div>
                 </label>
             </div>
-            </div>
-            <div class="clear"></div>
-    <input type="hidden" name="price" value="179"/>
-    <input type="hidden" name="pdname" value='001 BLACK „DEBUT” HOODIE'/>
-            <div id="qt">
+        </div>
+        <div class="clear"></div>
 
-            </div>
-            <div id="basket">
+<!-- SUBMIT BUTTON -->
+        <div id="basket">
             <label><input type="button" name="dokoszyka" class="dokoszyka" value="add to basket" onClick="addToBasket('001 BLACK „DEBUT” HOODIE', 379, 'bluza1.jpg')"> </label>
-            </div>
-        </form>
+        </div>
+    </form>
+
+<!-- PRODUCT SPEC-->
             <div id="product_type">
                <p> color: black</p>
 
@@ -114,9 +134,9 @@
                 <p>fit: true to size</p>
             </div>
             
-        </div>
+    </div>
 
-
+<!-- FOOTER SCRIPT -->
     <?php include('footer.php') ?>
 
 
