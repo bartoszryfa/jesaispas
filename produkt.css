@@ -26,6 +26,9 @@ a:hover
 {
     opacity:40%;
 }
+
+/*---------------------------------- Menu ---------------------------------------*/
+
 #back
 {
     float:left;
@@ -57,7 +60,187 @@ a:hover
 }
 
 
+/*---------------------------------- Item ---------------------------------------*/
 
+/* photos */
+.column {
+  padding: 10px;
+  margin-left:60px;
+  margin-top:13px;
+}
+
+
+.column img {
+    width:110px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+
+}
+.container
+{
+    height:1px;
+}
+.container img
+{
+    width:500px;
+    height:500px;
+    position: relative;
+    top:23px;
+    left:200px;
+}
+
+#expandedImg img
+{
+    width:500px;
+    width:500px;
+}
+
+/* size */
+
+.size
+{
+    width:600px;
+}
+.size p
+{
+    font-weight:300;
+    font-size:15px;
+}
+
+.sizes, .sizes2, .sizes3, .sizes4
+{
+    display:grid;
+    width:40px;
+    height:40px;
+    color:#fff;
+    float:left;
+    background-color:gray;
+}
+.sizes2
+{
+    margin-left:150px;
+}
+.sizes3
+{
+    margin-left:150px;
+}
+
+.sizes4
+{
+    float:right;
+}
+
+.box
+{
+    position:relative;
+    top:-250px;
+    left:750px;
+    width:600px;
+    height:500px;
+    overflow:hidden;
+    
+}
+
+/* product info */
+
+.prodname,.prodname1
+{
+font-size:22px;
+float:left;
+}
+.price
+{
+   
+    float:right;
+    text-align:right;
+}
+
+.hidebox
+{
+    display:none;
+    
+}
+
+.roz1
+{
+    color:white;
+  margin-left:5px;
+}
+.roz2
+{
+    color:white;
+    margin-left:2.5px;
+}
+.roz3
+{
+    color:white;
+    margin-left:5px;
+}
+.roz4
+{
+    color:white;
+  margin-left:1px;
+}
+/* form  */
+
+.lbl-radio
+{
+    width:10px;
+    height:10px;
+    padding:10px;
+    border-box: 1px solid #000;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+
+.display-box .size
+{
+    
+    font-size:10px;
+    margin-bottom:5px;
+
+}
+
+input[type=radio]:checked + .lbl-radio
+{
+    width:20px;
+    height:20px;
+    background-color:#000;
+}
+
+/* button checkout */
+.dokoszyka
+{
+    background-color:#000;
+    text-align:center;
+    color:#fff;
+    width:600px;
+    height:45px;
+    border-style:solid;
+    border-width:1px;
+    border-color:#000;
+    font-size:15px;
+    float:left;
+    box-shadow: inset 0 0 0 0 black;
+    transition:ease-out 0.5s;
+    outline:none;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.dokoszyka:hover
+{
+    cursor:pointer;
+    width:600px;
+    opacity:0.7;
+}
+
+/*---------------------------------- Footer ---------------------------------------*/
 
 .footer
 {
@@ -116,176 +299,7 @@ a:hover
     background-color:red;
     overflow:hidden;
 }
-
-.column {
-  padding: 10px;
-  margin-left:60px;
-  margin-top:13px;
-}
-
-
-.column img {
-    width:110px;
-    opacity: 0.8;
-    cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-
-}
-.container
-{
-    height:1px;
-}
-.container img
-{
-    width:500px;
-    height:500px;
-    position: relative;
-    top:23px;
-    left:200px;
-}
-
-#expandedImg img
-{
-    width:500px;
-    width:500px;
-}
-.size
-{
-    width:600px;
-}
-.size p
-{
-    font-weight:300;
-    font-size:15px;
-}
-.box
-{
-    position:relative;
-    top:-250px;
-    left:750px;
-    width:600px;
-    height:500px;
-    overflow:hidden;
-    
-}
-.prodname,.prodname1
-{
-font-size:22px;
-float:left;
-}
-.price
-{
-   
-    float:right;
-    text-align:right;
-}
-
-.hidebox
-{
-    display:none;
-    
-}
-
-.sizes, .sizes2, .sizes3, .sizes4
-{
-    display:grid;
-    width:40px;
-    height:40px;
-    color:#fff;
-    float:left;
-    background-color:gray;
-}
-.sizes2
-{
-    margin-left:150px;
-}
-.sizes3
-{
-    margin-left:150px;
-}
-    
-
-.sizes4
-{
-    float:right;
-}
-.roz1
-{
-    color:white;
-  margin-left:5px;
-}
-.roz2
-{
-    color:white;
-  margin-left:2.5px;
-}
-.roz3
-{
-    color:white;
-  margin-left:5px;
-}
-.roz4
-{
-    color:white;
-  margin-left:1px;
-}
-.lbl-radio
-{
-    width:10px;
-    height:10px;
-    padding:10px;
-    border-box: 1px solid #000;
-    cursor:pointer;
-    overflow: hidden;
-}
-
-
-.display-box .size
-{
-    
-    font-size:10px;
-    margin-bottom:5px;
-
-}
-
-input[type=radio]:checked + .lbl-radio
-{
-    width:20px;
-    height:20px;
-    background-color:#000;
-}
-
-
-.dokoszyka
-{
-    background-color:#000;
-    text-align:center;
-    color:#fff;
-    width:600px;
-    height:45px;
-    border-style:solid;
-    border-width:1px;
-    border-color:#000;
-    font-size:15px;
-    float:left;
-    box-shadow: inset 0 0 0 0 black;
-    transition:ease-out 0.5s;
-    outline:none;
-    margin-top:15px;
-    margin-bottom:15px;
-}
-
-.dokoszyka:hover
-{
-    cursor:pointer;
-    width:600px;
-    opacity:0.7;
-}
-
-/*---------------------------------------------media only screen-------------------------------------------------*/
+/*----------------------------------- Mobile -------------------------------------*/
 
 @media only screen and (max-width: 500px) {
 
@@ -294,6 +308,9 @@ input[type=radio]:checked + .lbl-radio
     width:500px;
     
 }
+
+/*---------------------------------- Menu ---------------------------------------*/
+
 #back
 {
     margin-top:30px;
@@ -301,7 +318,6 @@ input[type=radio]:checked + .lbl-radio
     width:105px;
     
 }
-
 
 #card
 {
@@ -322,7 +338,7 @@ input[type=radio]:checked + .lbl-radio
 }
 
 
-
+/*---------------------------------- item  ---------------------------------------*/
 .column {
   position:relative;
   top:490px;
@@ -330,7 +346,6 @@ input[type=radio]:checked + .lbl-radio
   float:left;
   
 }
-
 
 .column img {
     
@@ -362,6 +377,7 @@ input[type=radio]:checked + .lbl-radio
     left:25px;
 }
 
+/* size */
 .size
 {
     width:500px;
@@ -373,6 +389,19 @@ input[type=radio]:checked + .lbl-radio
     font-weight:300;
     font-size:15px;
 }
+.sizes, .sizes2, .sizes3, .sizes4
+{
+    
+    float:left;
+
+}
+.sizes2, .sizes3, .sizes4
+{
+    margin-left:97px;
+}
+
+/* product info */
+
 .box
 {
     position:relative;
@@ -402,19 +431,7 @@ float:left;
     
 }
 
-.sizes, .sizes2, .sizes3, .sizes4
-{
-    
-    float:left;
-
-}
-.sizes2, .sizes3, .sizes4
-{
-    margin-left:97px;
-}
-
-
-
+/* add to checkout */
 .dokoszyka
 {
     background-color:#000;
@@ -434,6 +451,10 @@ float:left;
 {
  width:300px;
 }
+
+
+/*---------------------------------- footer  ---------------------------------------*/
+
 .footer
 {
     width:200px;
