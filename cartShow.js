@@ -37,6 +37,8 @@ const delItem = (whatItem, whatSize) => {
     genTable()
 }
 
+//table
+
 const genTable = () => {
     countItems()
 
@@ -57,7 +59,7 @@ const genTable = () => {
 
     let lp = 1
     let amount = 0
-
+    
     if(currentCart && currentCart.shop.length){
         currentCart.shop.map(item => {
             $("table").append(`
