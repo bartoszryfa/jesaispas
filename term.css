@@ -2,12 +2,15 @@ body
 {
 margin:0px;
 font-family: 'Roboto', sans-serif;
+color:#000;
 }
 #container
 {
     width:1420px;
     margin-left:auto;
     margin-right:auto;
+    background-color:#fff;
+
 }
 .clear
 {
@@ -15,7 +18,7 @@ font-family: 'Roboto', sans-serif;
 }
 a:link
 {
-    color:#fff;
+    color:#000;
     text-decoration:none;
 }
 a:visited
@@ -26,76 +29,77 @@ a:hover
 {
     opacity:40%;
 }
-#logo
-{
-    margin-top:40px;
-    margin-left:60px;
-    width:300px;
-    
-}
-#logo img
+#back
 {
     float:left;
+    margin-top:43px;
+    margin-left:80px;
+    font-weight:500;
     width:200px;
-    position:relative;
-    top:-14px;
-  
 }
+
 
 #card
 {
     float:left;
-    margin-top:3px;
-    margin-left:420px;
+    margin-top:43px;
+    margin-left:400px;
     font-weight:500;
     width:70px;
-    color:#000;
 }
 
 #checkout
 {
     
-    margin-top:3px;
+    margin-top:43px;
     margin-right:60px;
     font-weight:500;
-    float:right;
-    color:#000;
+    float:right
 }
 
 #box
 {
-    margin-top:100px;
-    margin-bottom:100px;
+    font-weight:300;
+    font-size:14px;
+    width:500px;
+    height:550px;
     margin-left:auto;
     margin-right:auto;
-    width:1200px;
-    
-    
+    margin-top:40px;
 }
-.produkty
+#box1
 {
-    width:350px;
-    height:320px;
-    margin-left:17.5px;
-    margin-right:17.5px;
-    margin-bottom:70px;
-    float:left;
+    font-weight:300;
+    font-size:14px;
+    width:550px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
 }
-.produkty img
+.text
 {
-    width:100%;
-    item-align:center
+    width:200px;
+    font-weight:300;
+    margin-bottom:40px;
 }
-.produkty p
+h3
 {
-    margin-top:0px;
-    text-align:center;
     font-weight:500;
 }
-.produkty a:hover
+
+.text1
 {
-    opacity:80%;
+    font-size:15px;
+    font-weight:300;
+ 
 }
+.text1 span
+{
+    font-weight:500;
+}
+
+
+
 #footer
 {
     width:350px;
@@ -111,10 +115,8 @@ a:hover
     margin-right:10px;
     font-size:10px;
     float:left;
-    color:#000;
     
 }
-
 .fot a:link
 {
     text-decoration:none;
@@ -145,16 +147,8 @@ a:hover
     text-decoration:underline;
     opacity:1;
 }
-#stopka
-{
-    margin-top:150px;
-    margin-bottom:15px;
-    width:315px;
-    height:50px;
-    margin-left:auto;
-    margin-right:auto;
-    overflow:hidden;
-}
+
+
 /*---------------------------------------------media only screen-------------------------------------------------*/
 
 @media only screen and (max-width: 500px) {
@@ -163,39 +157,31 @@ a:hover
 {
     width:500px;
 }
-#logo
+#back
 {
-    margin-top:15px;
-    margin-left:150px;
+    margin-top:30px;
+    margin-left:21px;
     width:105px;
     
 }
-#logo img
-{
-    float:left;
-    width:200px;
-    margin-top:11px;
-}
+
 
 #card
 {
     float:left;
-    margin-top:15px;
-    margin-left:50px;
+    margin-top:30px;
+    margin-left:95px;
     font-weight:500;
     width:70px;
-    color:black;
-    display:none;
 }
 
 #checkout
 {
-    display:none;
-    margin-top:15px;
+    
+    margin-top:30px;
     margin-right:21px;
     font-weight:500;
     float:right
-    color:black;
 }
 
 #box
@@ -204,20 +190,12 @@ a:hover
     margin-left:21px;
     margin-right:21px;
     width:450px;
+    height:460px;
     
 }
-.produkty
+#box1
 {
-    width:206px;
-    height:206px;
-    margin-left:7.5px;
-    margin-right:7.5px;
-    margin-bottom:60px;
-    float:left;
-}
-.produkty p
-{
-    font-size:18px;
+    width:450px;
 }
 #footer
 {
@@ -232,18 +210,6 @@ a:hover
 {
     margin-top:10px;
     margin-left:36px;
-    margin-bottom:40px;
     font-size:12.5px;
 }
-#stopka
-{
-    margin-top:50px;
-    margin-bottom:15px;
-    width:200px;
-    height:50px;
-    margin-left:auto;
-    margin-right:auto;
-    overflow:hidden;
 }
-}
-
