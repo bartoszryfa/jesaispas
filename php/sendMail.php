@@ -13,7 +13,6 @@
     $orders = $_POST['orders'];
 
     /* sending */ 
-    /* TWOJ EMAIL */
     $to = 'zamowienia.jesaispas@gmail.com';
     $subject = 'Nowe zamówienie: ';
     $headers = "From: ".$name." <".$email."> \r\n";
