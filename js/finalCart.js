@@ -26,3 +26,22 @@ $(document).ready(() => {
 
     countItems()
 })
+
+$(document).ready(function() {
+  $('#form').submit(function(e) {
+    e.preventDefault();
+
+    var name = $('input[name=pdname]').val();
+    var email = $('input[name=size]').val();
+    var message = $('input[name=price]').val();
+
+    $.ajax({
+      type: 'POST',
+      url: 'orderconfirmed.php',
+      data: { name: size, name: price, name: pdname },
+      success: function() {
+        alert('Wiadomość została wysłana!');
+      }
+    });
+  });
+});

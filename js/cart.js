@@ -37,3 +37,4 @@ const countItems = () => {
     })
     $("#cartCount").html(counter)
 }
+
