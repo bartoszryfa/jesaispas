@@ -5,6 +5,22 @@ The store was developed on the founder's request. It involves limited drops of n
 
 ## Project photos 
 
+<div style="display: flex;">
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/21903a64-7ea5-49ff-ba07-bfdd652112ca" alt=„beforeDrop”/>
+    
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/6f1b4f95-fbba-4c88-af80-25dfe67852f0" alt="homePage"/>
+
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/6f81df6a-bac5-41ca-a11c-300e0702f9a5" alt=„productPage”/>
+
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/909db66c-92f7-4773-8bab-9db3abcb3fa2" alt="addToBasket"/>
+
+
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/d52fff27-b566-464a-967e-ab0926a78dbf" alt=„cart”/>
+  
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/7f60540b-fcf1-4e93-a055-049357ae0f73" alt="ordering"/>
+  
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/fdddf224-72ba-4084-a9b7-fd3cf155ab2b" alt="Empty basket"/>
+</div>
 
 ## Features
 - Limited Assortment
