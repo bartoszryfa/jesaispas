@@ -6,9 +6,9 @@ The store was developed on the founder's request. It involves limited drops of n
 ## Project photos 
 
 <div style="display: flex; align-items: flex-start;">
-  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/21903a64-7ea5-49ff-ba07-bfdd652112ca" alt=„beforeDrop”/>
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/f185a68d-7687-4537-a6c6-ff0f38699eb2" alt=„beforeDrop”/>
     
-  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/6f1b4f95-fbba-4c88-af80-25dfe67852f0" alt="homePage"/>
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/d86250d0-c909-4722-8654-3886f38d43ed" alt="homePage"/>
 
   <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/c408d9e1-3487-43db-a0d6-0fc95c929e8a" alt=„productPage”/>
 
@@ -19,11 +19,11 @@ The store was developed on the founder's request. It involves limited drops of n
 
 
 <div>
-  <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/d52fff27-b566-464a-967e-ab0926a78dbf" alt="cart"/>
+  <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/4b437b34-6a6b-4d04-b085-d5850da75830" alt="cart"/>
   
-  <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/cc8ab837-87d0-4f99-800c-beca4538409c" alt="ordering"/>
+  <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/78ff75ea-c86d-4ed9-acd9-2af8861895d8" alt="ordering"/>
   
-  <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/27863905-5079-4ffe-8f35-94e4dc379d25" alt="ordering"/>
+  <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/1ad73905-f7a0-43e1-9c1d-fa7a4b1547c3" alt="ordering"/>
   
   <img style="vertical-align: top;" width="200" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/9247f0af-b58e-4994-800d-b43254b54400" alt="order confirmed"/>
 </div>
