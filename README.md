@@ -10,7 +10,7 @@ The store was developed on the founder's request. It involves limited drops of n
     
   <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/6f1b4f95-fbba-4c88-af80-25dfe67852f0" alt="homePage"/>
 
-  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/6f81df6a-bac5-41ca-a11c-300e0702f9a5" alt=„productPage”/>
+  <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/c408d9e1-3487-43db-a0d6-0fc95c929e8a" alt=„productPage”/>
 
   <img width="200" height="" src="https://github.com/bartoszryfa/jesaispas/assets/132827271/909db66c-92f7-4773-8bab-9db3abcb3fa2" alt="addToBasket"/>
 
