@@ -1,0 +1,264 @@
+body
+{
+margin:0px;
+font-family: 'Roboto', sans-serif;
+}
+#container
+{
+    width:1420px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.clear
+{
+    clear:both;
+}
+a:link
+{
+    color:#fff;
+    text-decoration:none;
+}
+a:visited
+{
+    color:#000;
+}
+a:hover
+{
+    opacity:40%;
+}
+#logo
+{
+    margin-top:40px;
+    margin-left:60px;
+    width:300px;
+    
+}
+
+/*----------------------------------------- Menu -----------------------------------*/
+
+#logo img
+{
+    float:left;
+    width:200px;
+    position:relative;
+    top:-14px;
+  
+}
+
+#card
+{
+    float:left;
+    margin-top:3px;
+    margin-left:420px;
+    font-weight:500;
+    width:70px;
+    color:#000;
+}
+
+#checkout
+{
+    
+    margin-top:3px;
+    margin-right:60px;
+    font-weight:500;
+    float:right;
+    color:#000;
+}
+
+#box
+{
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    
+    
+}
+
+/*----------------------------------------- Products section -----------------------------------*/
+
+.produkty
+{
+    width:350px;
+    height:320px;
+    margin-left:17.5px;
+    margin-right:17.5px;
+    margin-bottom:70px;
+    float:left;
+}
+.produkty img
+{
+    width:100%;
+    item-align:center
+}
+.produkty p
+{
+    margin-top:0px;
+    text-align:center;
+    font-weight:500;
+}
+.produkty a:hover
+{
+    opacity:80%;
+}
+
+/*----------------------------------------- Footer -----------------------------------*/
+
+#footer
+{
+    width:350px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:12px;
+}
+.fot, .fot1
+{
+    margin-left:10px;
+    margin-right:10px;
+    font-size:10px;
+    float:left;
+    color:#000;
+    
+}
+
+.fot a:link
+{
+    text-decoration:none;
+    color:#000;
+}
+
+.fot a:visited
+{
+    color:#000;
+}
+.fot a:hover
+{
+    text-decoration:underline;
+    opacity:1;
+}
+.fot1 a:link
+{
+    text-decoration:none;
+    color:#000;
+}
+
+.fot1 a:visited
+{
+    color:#000;
+}
+.fot1 a:hover
+{
+    text-decoration:underline;
+    opacity:1;
+}
+#stopka
+{
+    margin-top:150px;
+    margin-bottom:15px;
+    width:315px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+}
+/*----------------------------------------- Mobile -----------------------------------*/
+
+@media only screen and (max-width: 500px) {
+
+#container
+{
+    width:500px;
+}
+
+/*----------------------------------------- Menu ------------------------------------*/
+
+#logo
+{
+    margin-top:25px;
+    margin-left:150px;
+    width:105px;
+}
+
+#logo img
+{
+    float:left;
+    width:200px;
+    margin-top:11px;
+}
+
+#card
+{
+    float:left;
+    margin-top:15px;
+    margin-left:50px;
+    font-weight:500;
+    width:70px;
+    color:black;
+    display:none;
+}
+
+#checkout
+{
+    display:none;
+    margin-top:15px;
+    margin-right:21px;
+    font-weight:500;
+    float:right
+    color:black;
+}
+
+#box
+{
+    margin-top:100px;
+    margin-left:21px;
+    margin-right:21px;
+    width:450px;
+    
+}
+
+/*----------------------------------------- Products section -----------------------------------*/
+
+.produkty
+{
+    width:206px;
+    height:206px;
+    margin-left:7.5px;
+    margin-right:7.5px;
+    margin-bottom:60px;
+    float:left;
+}
+.produkty p
+{
+    font-size:18px;
+}
+#footer
+{
+    width:200px;
+    margin-top:150px;
+}
+.fot
+{
+    font-size:12.5px;
+}
+.fot1
+{
+    margin-top:10px;
+    margin-left:36px;
+    margin-bottom:40px;
+    font-size:12.5px;
+}
+#stopka
+{
+    margin-top:50px;
+    margin-bottom:15px;
+    width:200px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+}
+}
+

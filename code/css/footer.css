@@ -1,0 +1,53 @@
+#footer
+{
+    width:350px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:12px;
+}
+.fot, .fot1
+{
+    margin-left:10px;
+    margin-right:10px;
+    font-size:10px;
+    float:left;
+    color:#000;
+    
+}
+
+
+/*---------------------------------- link ---------------------------------------*/
+
+.fot a:link
+{
+    text-decoration:none;
+    color:#000;
+}
+
+.fot a:visited
+{
+    color:#000;
+}
+.fot a:hover
+{
+    text-decoration:underline;
+    opacity:1;
+}
+.fot1 a:link
+{
+    text-decoration:none;
+    color:#000;
+}
+
+.fot1 a:visited
+{
+    color:#000;
+}
+.fot1 a:hover
+{
+    text-decoration:underline;
+    opacity:1;
+}
+
